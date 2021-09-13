@@ -10,6 +10,6 @@ func main() {
 	// fmt.Println(math.Pi)
 	// fmt.Println(pi)
 
-	const myConst = 1
+	const myConst int = 1
 	fmt.Printf("type: %T, value: %v\n", myConst+1.1, myConst+1.1)
 }

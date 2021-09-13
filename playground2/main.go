@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
 
 func main() {
-	fmt.Println("Hello World")
+	const pi = 3.14
+	fmt.Println(math.Pi)
+	fmt.Println(pi)
 }

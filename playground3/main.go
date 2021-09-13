@@ -8,4 +8,6 @@ func main() {
 
 	fmt.Println(x+y, x-y, x*y, x/y, x%y)
 	fmt.Println(x == y, x != y, x > y, x < y, x >= 5)
+	fmt.Println(x > y && x >= 5)
+	fmt.Println(x > y || x < y)
 }

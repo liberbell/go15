@@ -7,4 +7,5 @@ func main() {
 	y := 2
 
 	fmt.Println(x+y, x-y, x*y, x/y, x%y)
+	fmt.Println(x == y, x != y, x > y, x < y, x >= 5)
 }

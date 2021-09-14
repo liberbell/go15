@@ -8,6 +8,6 @@ func main() {
 
 	fmt.Println(x, y)
 	fmt.Println(*y)
-	*y := "goodbye"
+	*y = "goodbye"
 	fmt.Println(x, y)
 }

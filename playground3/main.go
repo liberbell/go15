@@ -13,4 +13,7 @@ func main() {
 	fmt.Println(!true, !false)
 
 	fmt.Println(2 << 1)
+
+	x += y
+	fmt.Println(x, y)
 }

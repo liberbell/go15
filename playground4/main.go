@@ -5,7 +5,11 @@ import "fmt"
 func main() {
 	i := 10
 	for i := 0; i < 5; i++ {
-		fmt.Println(i)
+		fmt.Println("The value of i inside the for loop: ", i)
 	}
-	fmt.Println(i)
+	fmt.Println("The value of i outside the for loop: ", i)
+
+	for i < 15 {
+		fmt.Println("using the value of i initialized outside for loop: ", i)
+	}
 }

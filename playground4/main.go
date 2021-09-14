@@ -14,4 +14,9 @@ func main() {
 		i++
 	}
 	fmt.Println("value of i outside the for loop did change: ", i)
+
+	// j := 1
+	// if j < 1 {
+	// 	fmt.Println("value of j inside the if statement: ", j)
+	// }
 }

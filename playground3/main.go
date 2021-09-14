@@ -11,4 +11,6 @@ func main() {
 	fmt.Println(x > y && x >= 5)
 	fmt.Println(x > y || x < y)
 	fmt.Println(!true, !false)
+
+	fmt.Println(2 << 1)
 }

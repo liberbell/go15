@@ -11,5 +11,7 @@ func main() {
 
 	for i < 15 {
 		fmt.Println("using the value of i initialized outside for loop: ", i)
+		i++
 	}
+	fmt.Println("value of i outside the for loop did change: ", i)
 }

@@ -14,7 +14,7 @@ func main() {
 	s1 := []int{0, 1, 2, 3}
 	s1Copy := make([]int, len(s1))
 	e1 := copy(s1Copy, s1)
-	fmt.Println("values: ", s1)
-	fmt.Println("is zero slice nil?", s1 == nil)
-	fmt.Println("length of s1: ", len(s1))
+	fmt.Println("length of s1Copy: ", len(s1Copy))
+	fmt.Println("values: ", s1Copy)
+	fmt.Println("number of elements copied: ", e1)
 }

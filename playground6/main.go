@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	// var prodPrice map[string]int
 	// fmt.Println(prodPrice)
@@ -16,4 +18,5 @@ func main() {
 	}
 
 	empPrice["turbo widget"] = 100
+	fmt.Println(empPrice)
 }

@@ -19,4 +19,7 @@ func main() {
 
 	empPrice["turbo widget"] = 100
 	fmt.Println(empPrice)
+
+	el, ok := empPrice["widget"]
+	fmt.Println(el, ok)
 }

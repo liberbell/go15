@@ -12,4 +12,6 @@ func main() {
 	tempPrice := make(map[string]int)
 	tempPrice["convertible widget"] = 150
 	prodPrice = tempPrice
+	prodPrice["widget"] = 100
+	fmt.Println(prodPrice)
 }

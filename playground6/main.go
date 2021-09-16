@@ -1,9 +1,15 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	var prodPrice map[string]int
 	fmt.Println(prodPrice)
-	prodPrice["widget"] = 100
+	// prodPrice["widget"] = 100
+
+	tempPrice := make(map[string]int)
+	tempPrice["convertible widget"] = 150
+	prodPrice = tempPrice
 }

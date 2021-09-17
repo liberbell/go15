@@ -11,4 +11,7 @@ func main() {
 	fmt.Println(ptr, *ptr)
 	*ptr = 234
 	fmt.Println(ptr, *ptr)
+
+	val := 123
+	fmt.Println(ptr, *ptr)
 }

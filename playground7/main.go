@@ -9,4 +9,6 @@ func main() {
 	// fmt.Println(ptr, *ptr)
 	var ptr *int = new(int)
 	fmt.Println(ptr, *ptr)
+	*ptr = 234
+	fmt.Println(ptr, *ptr)
 }

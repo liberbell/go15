@@ -13,6 +13,6 @@ func main() {
 	// fmt.Println(ptr, *ptr)
 
 	val := 123
-	ptr := &val
+	var ptr = &val
 	fmt.Println(ptr, *ptr)
 }

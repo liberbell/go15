@@ -3,8 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	temp := 10
-	if temp < 0 {
+	// temp := 10
+	if temp := -10; temp < 0 {
 		fmt.Println("Below freezing!")
 	} else if temp == 0 {
 		fmt.Println("At freezing point!")

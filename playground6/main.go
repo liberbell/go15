@@ -21,6 +21,7 @@ func main() {
 	fmt.Println(empPrice)
 
 	fmt.Println(len(empPrice))
-	el, ok := empPrice["widget"]
+	delete(empPrice, "widget")
+	el, ok := empPrice["wydget"]
 	fmt.Println(el, ok)
 }

@@ -3,6 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	var ptr *int
+
+	val := 123
+	var ptr *int = &val
 	fmt.Println(ptr)
 }

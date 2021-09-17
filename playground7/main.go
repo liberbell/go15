@@ -6,5 +6,5 @@ func main() {
 
 	val := 123
 	var ptr *int = &val
-	fmt.Println(ptr)
+	fmt.Println(ptr, *ptr)
 }

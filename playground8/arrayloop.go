@@ -12,7 +12,7 @@ func main() {
 		"turbo widget":       100,
 		"convertible widget": 150,
 	}
-	for key := range prodPrice {
-		fmt.Println(key)
+	for _, value := range prodPrice {
+		fmt.Println(value)
 	}
 }

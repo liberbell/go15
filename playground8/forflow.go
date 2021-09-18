@@ -17,14 +17,14 @@ func main() {
 	// }
 	i := 0
 
-	outterlabel:
-		for i < 5; {
-			if i == 2 {
-				i++
-				goto outterlabel
-			}
-			fmt.Println(i)
+outterlabel:
+	for i < 5 {
+		if i == 2 {
 			i++
+			goto outterlabel
 		}
+		fmt.Println(i)
+		i++
+	}
 
 }

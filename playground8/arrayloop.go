@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	// sl := []int{10, 20, 30, 40}
 	// for i, value := range sl {
@@ -9,5 +11,8 @@ func main() {
 		"widget":             75,
 		"turbo widget":       100,
 		"convertible widget": 150,
+	}
+	for key, value := range prodPrice {
+		fmt.Println(key, value)
 	}
 }

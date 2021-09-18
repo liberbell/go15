@@ -9,10 +9,22 @@ func main() {
 	// 	i++
 	// }
 
-	for i := 0; i < 5; i++ {
+	// for i := 0; i < 5; i++ {
+	// 	if i == 2 {
+	// 		continue
+	// 	}
+	// 	fmt.Println(i)
+	// }
+	i := 0
+
+outterlabel:
+	for i < 5; {
 		if i == 2 {
-			continue
+			i++
+			goto outterlabel
 		}
 		fmt.Println(i)
+		i++
 	}
+
 }

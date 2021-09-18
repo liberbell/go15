@@ -6,5 +6,5 @@ import (
 )
 
 func main() {
-	fmt.Println(strings.Contains("Working with string functions.", "punctions"))
+	fmt.Println(strings.Replace("Working with string functions.", "functions", "variables", 0))
 }

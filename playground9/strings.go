@@ -6,5 +6,5 @@ import (
 )
 
 func main() {
-	fmt.Println(strings.Replace("Working with string functions.", "functions", "variables", -1))
+	fmt.Println(strings.Title("Working with string functions."))
 }

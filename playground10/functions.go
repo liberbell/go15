@@ -5,8 +5,12 @@ import "fmt"
 // var x int = 20
 // var y int = 10
 
-func add(x, y, z int) int {
-	return x + y + z
+func add(x []int) int {
+	total := 0
+	for _, val := range x {
+		total += val
+	}
+	return total
 }
 
 func main() {

@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func add() int {
+func add(x int, y int) int {
 	return x + y
 }
 

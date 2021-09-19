@@ -7,6 +7,7 @@ func avg(s []float64) float64 {
 	for _, val := range s {
 		total += val
 	}
+	return total / float64(len(s))
 }
 
 func main() {

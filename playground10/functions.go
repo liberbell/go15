@@ -10,8 +10,9 @@ func add(x, y, z int) int {
 }
 
 func main() {
-	x := 20
-	y := 10
-	z := 5
-	fmt.Println(add(x, y, z))
+	// x := 20
+	// y := 10
+	// z := 5
+	s := []int{10, 20, 5}
+	fmt.Println(add(s))
 }

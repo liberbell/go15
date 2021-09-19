@@ -1,7 +1,9 @@
 package main
 
-func add(x, y int) int {
+import "fmt"
 
+func add(x, y int) {
+	fmt.Println(x + y)
 }
 
 func main() {

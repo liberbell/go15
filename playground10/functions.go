@@ -2,15 +2,16 @@ package main
 
 import "fmt"
 
-var x int = 20
-var y int = 10
+// var x int = 20
+// var y int = 10
 
-func add() int {
-	return x + y
+func add(x, y, z int) int {
+	return x + y + z
 }
 
 func main() {
-	// x := 20
-	// y := 10
+	x := 20
+	y := 10
+	z := 5
 	fmt.Println(add())
 }

@@ -13,6 +13,10 @@ func add(x []int) int {
 	return total
 }
 
+func multiply(x, y *int) int {
+	a
+}
+
 func main() {
 	// x := 20
 	// y := 10

@@ -13,5 +13,5 @@ func main() {
 	x := 20
 	y := 10
 	z := 5
-	fmt.Println(add())
+	fmt.Println(add(x, y, z))
 }

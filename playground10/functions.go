@@ -24,5 +24,5 @@ func main() {
 	// s := []int{10, 20, 5}
 	x := 5
 	y := 2
-	fmt.Println(multiply(x, y))
+	fmt.Println(multiply(&x, &y))
 }

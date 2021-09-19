@@ -1,5 +1,8 @@
 package main
 
-func avg(x []float64) float64 {
-	total := 0.0
+import "fmt"
+
+func main() {
+	s := []float64{1.8, 2.2, 2.0}
+	fmt.Println(avg(s))
 }

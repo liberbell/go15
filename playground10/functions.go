@@ -14,13 +14,15 @@ func add(x []int) int {
 }
 
 func multiply(x, y *int) int {
-	a
+	return *x * *y
 }
 
 func main() {
 	// x := 20
 	// y := 10
 	// z := 5
-	s := []int{10, 20, 5}
-	fmt.Println(add(s))
+	// s := []int{10, 20, 5}
+	x := 5
+	y := 2
+	fmt.Println(multiply(x, y))
 }

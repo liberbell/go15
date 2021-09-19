@@ -7,7 +7,7 @@ func add(x, y int) (a, b int, c bool) {
 	a = x + y
 	b = x - y
 	c = x > y
-	return
+	return a, b, false
 }
 
 func main() {

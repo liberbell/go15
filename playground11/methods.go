@@ -6,6 +6,10 @@ type Box struct {
 	H float64
 }
 
+func (b *Box) volume() float64 {
+	b
+}
+
 func main() {
 	a
 }

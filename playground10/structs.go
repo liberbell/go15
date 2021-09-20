@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 type Box struct {
 	D float64
 	W float64
@@ -7,5 +9,7 @@ type Box struct {
 }
 
 func main() {
-	a
+
+	b := Box{5, 4, 4}
+	fmt.Println(b)
 }

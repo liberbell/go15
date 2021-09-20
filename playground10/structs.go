@@ -10,6 +10,6 @@ type Box struct {
 
 func main() {
 
-	b := Box{5, 4, 4}
+	b := Box{D: 5, W: 4, H: 3}
 	fmt.Println(b)
 }

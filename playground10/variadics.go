@@ -13,4 +13,6 @@ func add(vals ...int) {
 func main() {
 	vals := []int{1, 2, 3, 4}
 	add(vals...)
+	vals = []int{1, 2, 3, 4, 5, 6}
+	add(vals...)
 }

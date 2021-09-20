@@ -5,6 +5,13 @@ type Food struct {
 	FoodType() string
 }
 
+type apple strust {
+}
+
+func (a Apple) Nutrition() string {
+	return "Apple are carb heavy!"
+}
+
 func main() {
 	a
 }

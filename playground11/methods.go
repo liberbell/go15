@@ -7,7 +7,7 @@ type Box struct {
 }
 
 func (b *Box) volume() float64 {
-	b
+	return b.D * b.W * b.H
 }
 
 func main() {

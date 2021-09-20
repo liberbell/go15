@@ -1,7 +1,10 @@
 package main
 
 func val(vals ...int) {
-	a
+	total := 0
+	for _, val := range vals {
+		total += val
+	}
 }
 
 func main() {

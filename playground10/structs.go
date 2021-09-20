@@ -11,5 +11,6 @@ type Box struct {
 func main() {
 
 	b := Box{D: 5, W: 4, H: 3}
+	b.D = 6
 	fmt.Println(b)
 }

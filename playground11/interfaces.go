@@ -9,7 +9,11 @@ type apple strust {
 }
 
 func (a Apple) Nutrition() string {
-	return "Apple are carb heavy!"
+	return "Apples are carb heavy!"
+}
+
+func (a Apple) FoodType() string {
+	return "Apples are fruit."
 }
 
 func main() {

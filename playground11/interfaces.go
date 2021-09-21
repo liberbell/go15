@@ -7,7 +7,7 @@ type Food interface {
 	FoodType() string
 }
 
-type apple strust {
+type Apple struct {
 }
 
 func (a Apple) Nutrition() string {
@@ -26,7 +26,7 @@ func (c Celery) Nutrition() string {
 }
 
 func (c Celery) FoodType() string {
-	return "Celery is a vegetable."	
+	return "Celery is a vegetable."
 }
 
 func main() {

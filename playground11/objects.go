@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 type Shape interface {
-	volumes() float64
+	volume() float64
 }
 
 type Cube struct {
@@ -27,7 +27,7 @@ func (sp *Sphere) volume() float64 {
 func totalVolume(shapes ...Shape) float64 {
 	var volume float64
 	for _, s := range shapes {
-		volume += s.volumes()
+		volume += s.volume()
 	}
 	return volume
 }

@@ -22,8 +22,12 @@ func (sp *Sphere) volume() float64 {
 	return ((4.0 / 3.0) * 3.14 * (sp.radius * sp.radius * sp.radius))
 }
 
-func totalVolume(Shape ...Shape) float64 {
+func totalVolume(shapes ...Shape) float64 {
 	var volume float64
+	for _, s := range shapes {
+		volume += s.volumes()
+	}
+	return volume
 }
 
 func main() {

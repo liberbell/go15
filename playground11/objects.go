@@ -10,6 +10,10 @@ type Cube struct {
 	height float64
 }
 
+func (cu *Cube) volume() float64 {
+	return cu.depth * cu.width * cu.height
+}
+
 func main() {
 	a
 }

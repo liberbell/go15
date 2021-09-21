@@ -16,6 +16,17 @@ func (a Apple) FoodType() string {
 	return "Apples are fruit."
 }
 
+type Celery struct {
+}
+
+func (c Celery) Nutrition() string {
+	return "Celery has zero everything!"
+}
+
+func (c Celery) FoodType() string {
+	return "Celery is a vegetable."	
+}
+
 func main() {
 	a
 }

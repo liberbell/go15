@@ -28,5 +28,6 @@ func (c Celery) FoodType() string {
 }
 
 func main() {
-	a
+	foods := []Food{Apple{}, Celery{}}
+	for _, f := range foods {}
 }

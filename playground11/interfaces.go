@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-type Food struct {
+type Food interface {
 	Nutrition() string
 	FoodType() string
 }

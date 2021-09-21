@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 type Food struct {
 	Nutrition() string
 	FoodType() string
@@ -29,5 +31,7 @@ func (c Celery) FoodType() string {
 
 func main() {
 	foods := []Food{Apple{}, Celery{}}
-	for _, f := range foods {}
+	for _, f := range foods {
+		fmt.Println(f.Nutrition(), f.FoodType())
+	}
 }

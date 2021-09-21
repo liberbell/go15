@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 type Shape interface {
 	volumes() float64
 }
@@ -31,5 +33,7 @@ func totalVolume(shapes ...Shape) float64 {
 }
 
 func main() {
-	a
+	cu := Cube{depth: 4, width: 4, height: 4}
+	sp := Sphere{radius: 2}
+	fmt.Println("Total volume: ", totalVolume(&cu, &sp))
 }
